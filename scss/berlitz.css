@@ -630,34 +630,37 @@ hr.admin {
 .time-calendar {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start; }
+  align-items: stretch; }
   .time-calendar .day-column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 12px 0 0;
+    width: 100px;
+    margin: 0;
     border-radius: 4px;
     padding: 4px; }
     .time-calendar .day-column:nth-child(even) {
       background: #e5edfd; }
-    .time-calendar .day-column .ck-button {
+    .time-calendar .day-column .day {
+      color: #004fef;
+      text-align: center;
+      margin: 16px 0; }
+    .time-calendar .day-column .time {
       margin: 4px;
       background-color: #fff;
       border-radius: 4px;
       border: 1px solid #D0D0D0;
       overflow: auto;
       float: left; }
-    .time-calendar .day-column .ck-button label {
-      display: block;
-      width: 5.0em; }
-    .time-calendar .day-column .ck-button label span {
-      text-align: center;
-      padding: 5px 5px;
-      display: block; }
-    .time-calendar .day-column .ck-button label input {
-      position: absolute;
-      opacity: 0; }
-    .time-calendar .day-column .ck-button input:checked + span {
-      background-color: #3ddc97; }
+      .time-calendar .day-column .time label {
+        width: 5.0em; }
+        .time-calendar .day-column .time label span {
+          text-align: center;
+          padding: 5px 5px;
+          display: block; }
+        .time-calendar .day-column .time label input {
+          position: absolute;
+          opacity: 0; }
+          .time-calendar .day-column .time label input:checked + span {
+            background-color: #3ddc97; }
 
 /*# sourceMappingURL=berlitz.css.map */

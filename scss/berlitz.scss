@@ -951,13 +951,13 @@ hr.admin {
 .time-calendar {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     
     .day-column {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin: 0 12px 0 0;
+        width: 100px;
+        margin: 0;
         border-radius: 4px;
         padding: 4px;
         
@@ -965,33 +965,39 @@ hr.admin {
             background: $blue-10;
         }
         
-        .ck-button {
+        .day {
+            color: $blue-100;
+            text-align: center;
+            margin: 16px 0;
+        }
+        
+        .time {
             margin:4px;
             background-color:#fff;
             border-radius:4px;
             border:1px solid #D0D0D0;
             overflow:auto;
             float:left;
-        }
-
-        .ck-button label {
-            display:block;
-            width:5.0em;
-        }
-
-        .ck-button label span {
-            text-align:center;
-            padding:5px 5px;
-            display:block;
-        }
-
-        .ck-button label input {
-            position:absolute;
-            opacity:0;
-        }
-
-        .ck-button input:checked + span {
-            background-color:$green-100;
+            
+            label {
+//                display:block;
+                width:5.0em;
+                
+                span {
+                    text-align:center;
+                    padding:5px 5px;
+                    display:block;
+                }
+                
+                input {
+                    position:absolute;
+                    opacity:0;
+                    
+                    &:checked + span {
+                        background-color:$green-100;
+                    }
+                }
+            }
         }
         
     }
