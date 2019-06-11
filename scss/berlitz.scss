@@ -224,17 +224,23 @@ button.admin {
                 font-size: 18px;
                 font-weight: 500;
                 background: $warning-100;
-                width: 36px;
                 height: 36px;
                 line-height: 36px;
                 color: #fff;
                 text-align: center;
-                border-radius: 50%;
+                border-radius: 18px;
                 margin-right: 8px;
+                padding: 0 8px;
             }
             
             .minutes {
                 font-size: 14px;
+                line-height: 14px;
+            }
+            
+            button {
+                padding: 4px 12px;
+                margin-left: 16px;
             }
         }
     }

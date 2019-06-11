@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons/icon-profile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/icon-profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8.15279877,0 C10.6021815,0 12.5972432,1.99506173 12.5972432,4.44444444 C12.5972432,6.89382716 10.6021815,8.88888889 8.15279877,8.88888889 C5.70341605,8.88888889 3.70835432,6.89382716 3.70835432,4.44444444 C3.70835432,1.99506173 5.70341605,0 8.15279877,0 Z M15,16 L1,16 L1,13.75 C1,11.245 4.88266667,10 8,10 C11.1173333,10 15,11.245 15,13.75 L15,16 Z" id="Shape" fill="#1D1D1D"></path>
+    </g>
+</svg>
