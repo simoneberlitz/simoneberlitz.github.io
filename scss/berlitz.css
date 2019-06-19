@@ -497,6 +497,8 @@ hr.admin {
   border: 1px solid #CCDCFC;
   border-radius: 8px;
   padding: 16px; }
+  .search-criteria.margin-24 {
+    margin: 0 0 24px 0; }
   .search-criteria h3 {
     margin: 0 0 16px 0; }
   .search-criteria P {
@@ -505,6 +507,8 @@ hr.admin {
   .search-criteria table {
     margin: 0 0 16px 0;
     border-spacing: 0; }
+    .search-criteria table.margin-none {
+      margin: 0; }
     @media only screen and (min-width: 0em) {
       .search-criteria table th {
         display: block;

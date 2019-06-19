@@ -64,6 +64,7 @@ H3.tile-heading {
     text-align: center;
 }
 
+
 // Buttons
 button.admin {
         min-width: auto;
@@ -184,6 +185,8 @@ button.admin {
         }
     }
 }
+
+
 
 // Columns
 .column {
@@ -514,7 +517,7 @@ hr.admin {
                 table {
                     margin: 0 0 16px 0; 
                     border-spacing: 0;
-
+                    
                     @media only screen and (min-width: 0em) { 
 
                         th {
@@ -737,6 +740,10 @@ hr.admin {
     border-radius: 8px;
     padding: 16px;
     
+    &.margin-24 {
+        margin: 0 0 24px 0;
+    }
+    
     h3 {
         margin: 0 0 16px 0;
     }
@@ -749,6 +756,10 @@ hr.admin {
     table {
         margin: 0 0 16px 0; 
         border-spacing: 0;
+        
+        &.margin-none {
+            margin: 0;
+        }
         
         @media only screen and (min-width: 0em) { 
             
