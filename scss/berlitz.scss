@@ -20,6 +20,22 @@ $grey-40: #e3e3e3;
 $green-100: #3ddc97;
 
 $warning-100: #D77615;
+$warning-30: #fbd0ac;
+
+$danger-100: #ff361c;
+
+$success-10: #def1e0;
+$success-20: #bee4c3;
+$success-30: #9ed5a5;
+$success-40: #7fc889;
+$success-50: #63be71;
+$success-60: #45b55a;
+$success-70: #11a941;
+$success-80: #0c9d24;
+$success-90: #007e00;
+$success-100: #008000;
+
+$blue-grey-30: #b8b8bd;
 
 body { 
     background-color: $blue-03; 
@@ -1011,6 +1027,121 @@ hr.admin {
             }
         }
         
+    }
+    
+}
+
+table.lesson-chart {
+    border-collapse:collapse;
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    
+    td, th {
+        min-width: 24px;
+        padding: 8px;
+        border: 1px solid $blue-grey-30;
+        font-size: 14px;
+        
+        &.red {
+            background: $danger-100;
+            
+            &:hover {
+                background: darken($danger-100,10%);
+            }
+        }
+        
+        &.green-0 {
+            background: $success-10;
+            
+            &:hover {
+                background: darken($success-10,10%);
+            }
+        }
+        &.green-1 {
+            background: $success-20;
+            
+            &:hover {
+                background: darken($success-20,10%);
+            }
+        }
+        &.green-2 {
+            background: $success-30;
+            
+            &:hover {
+                background: darken($success-30,10%);
+            }
+        }
+        &.green-3 {
+            background: $success-40;
+            
+            &:hover {
+                background: darken($success-40,10%);
+            }
+        }
+        &.green-4 {
+            background: $success-50;
+            
+            &:hover {
+                background: darken($success-50,10%);
+            }
+        }
+        &.green-5 {
+            background: $success-60;
+            
+            &:hover {
+                background: darken($success-60,10%);
+            }
+        }
+        &.green-6 {
+            background: $success-70;
+            
+            &:hover {
+                background: darken($success-70,10%);
+            }
+        }
+        
+        &.green-7 {
+            background: $success-80;
+            
+            &:hover {
+                background: darken($success-80,10%);
+            }
+        }
+        &.green-8 {
+            background: $success-100;
+            
+            &:hover {
+                background: darken($success-100,10%);
+            }
+        }
+        
+        .availability {
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 500;
+            background: #fff;
+            border-radius: 3px;
+            font-size: 12px;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            border: 1px solid $blue-grey-30;
+        }
+        
+        &.spacer {
+            height: 24px;
+            border: none;
+        }
+        
+        
+    }
+    
+    th {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: left;
+        background: $blue-20;
+        color: $blue-100;
+        padding: 8px 16px 8px 8px;
     }
     
 }

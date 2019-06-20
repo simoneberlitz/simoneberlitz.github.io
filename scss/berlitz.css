@@ -667,4 +667,74 @@ hr.admin {
           .time-calendar .day-column .time label input:checked + span {
             background-color: #3ddc97; }
 
+table.lesson-chart {
+  border-collapse: collapse;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif; }
+  table.lesson-chart td, table.lesson-chart th {
+    min-width: 24px;
+    padding: 8px;
+    border: 1px solid #b8b8bd;
+    font-size: 14px; }
+    table.lesson-chart td.red, table.lesson-chart th.red {
+      background: #ff361c; }
+      table.lesson-chart td.red:hover, table.lesson-chart th.red:hover {
+        background: #e81b00; }
+    table.lesson-chart td.green-0, table.lesson-chart th.green-0 {
+      background: #def1e0; }
+      table.lesson-chart td.green-0:hover, table.lesson-chart th.green-0:hover {
+        background: #bae2be; }
+    table.lesson-chart td.green-1, table.lesson-chart th.green-1 {
+      background: #bee4c3; }
+      table.lesson-chart td.green-1:hover, table.lesson-chart th.green-1:hover {
+        background: #9ad5a2; }
+    table.lesson-chart td.green-2, table.lesson-chart th.green-2 {
+      background: #9ed5a5; }
+      table.lesson-chart td.green-2:hover, table.lesson-chart th.green-2:hover {
+        background: #7ac684; }
+    table.lesson-chart td.green-3, table.lesson-chart th.green-3 {
+      background: #7fc889; }
+      table.lesson-chart td.green-3:hover, table.lesson-chart th.green-3:hover {
+        background: #5bb968; }
+    table.lesson-chart td.green-4, table.lesson-chart th.green-4 {
+      background: #63be71; }
+      table.lesson-chart td.green-4:hover, table.lesson-chart th.green-4:hover {
+        background: #46a855; }
+    table.lesson-chart td.green-5, table.lesson-chart th.green-5 {
+      background: #45b55a; }
+      table.lesson-chart td.green-5:hover, table.lesson-chart th.green-5:hover {
+        background: #379048; }
+    table.lesson-chart td.green-6, table.lesson-chart th.green-6 {
+      background: #11a941; }
+      table.lesson-chart td.green-6:hover, table.lesson-chart th.green-6:hover {
+        background: #0c7b2f; }
+    table.lesson-chart td.green-7, table.lesson-chart th.green-7 {
+      background: #0c9d24; }
+      table.lesson-chart td.green-7:hover, table.lesson-chart th.green-7:hover {
+        background: #086e19; }
+    table.lesson-chart td.green-8, table.lesson-chart th.green-8 {
+      background: #008000; }
+      table.lesson-chart td.green-8:hover, table.lesson-chart th.green-8:hover {
+        background: #004d00; }
+    table.lesson-chart td .availability, table.lesson-chart th .availability {
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 500;
+      background: #fff;
+      border-radius: 3px;
+      font-size: 12px;
+      width: 16px;
+      height: 16px;
+      line-height: 16px;
+      border: 1px solid #b8b8bd; }
+    table.lesson-chart td.spacer, table.lesson-chart th.spacer {
+      height: 24px;
+      border: none; }
+  table.lesson-chart th {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    background: #CCDCFC;
+    color: #004fef;
+    padding: 8px 16px 8px 8px; }
+
 /*# sourceMappingURL=berlitz.css.map */
