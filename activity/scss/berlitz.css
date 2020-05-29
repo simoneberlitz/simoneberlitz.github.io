@@ -1,0 +1,234 @@
+body {
+  font-family: "IBM Plex Sans",Arial,sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 0 150px 0; }
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  min-height: calc(100vh - 171px);
+  justify-content: center;
+  overflow: auto;
+  padding-top: 52px; }
+  @media screen and (max-width: 767px) {
+    .container {
+      height: calc(100vh - 148px); } }
+  .container h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #004fef;
+    margin: 0 0 16px 0;
+    padding: 0; }
+  .container h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1d1d1d;
+    margin: 0 0 12px 0;
+    padding: 0; }
+    .container h2.focus {
+      font-size: 21px;
+      background-color: #fbd0ac;
+      border: 3px solid #d87515;
+      display: inline-block;
+      padding: 4px 21px;
+      font-weight: 500;
+      border-radius: 30px;
+      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+      background-color: #fbd0ac; }
+  .container section {
+    text-align: center;
+    align-self: center;
+    align-content: center; }
+    @media screen and (max-width: 320px) {
+      .container section {
+        width: 240px;
+        align-self: auto; } }
+    @media screen and (min-width: 321px) and (max-width: 360px) {
+      .container section {
+        width: 280px;
+        align-self: auto; } }
+    @media screen and (min-width: 361px) and (max-width: 767px) {
+      .container section {
+        width: 300px;
+        align-self: auto; } }
+    @media screen and (min-width: 768px) {
+      .container section {
+        width: 512px; } }
+    @media screen and (min-width: 992px) {
+      .container section {
+        width: 450px; } }
+    @media screen and (min-width: 1200px) {
+      .container section {
+        width: 680px; } }
+    .container section article {
+      align-self: center;
+      margin: 16px 0 0 0;
+      padding: 0; }
+      @media screen and (max-width: 767px) {
+        .container section article {
+          margin: 16px 0 60px 0; } }
+      .container section article .image {
+        max-width: 450px;
+        max-height: 254px;
+        position: relative;
+        margin: 0 auto; }
+        .container section article .image img {
+          border-radius: 12px; }
+          @media screen and (max-width: 320px) {
+            .container section article .image img {
+              width: 230px; } }
+          @media screen and (min-width: 321px) and (max-width: 360px) {
+            .container section article .image img {
+              width: 260px; } }
+          @media screen and (min-width: 361px) and (max-width: 767px) {
+            .container section article .image img {
+              width: 300px; } }
+          @media screen and (min-width: 768px) {
+            .container section article .image img {
+              width: 420px;
+              margin-bottom: 150px; } }
+          @media screen and (min-width: 992px) {
+            .container section article .image img {
+              width: 450px; } }
+          @media screen and (min-width: 1200px) {
+            .container section article .image img {
+              width: 450px; } }
+      .container section article .swipe-tip {
+        position: fixed;
+        background-color: #fff;
+        width: 288px;
+        bottom: 104px;
+        left: 50%;
+        margin-left: -144px;
+        font-size: 12px;
+        height: 30px;
+        border: 1px solid grey;
+        line-height: 30px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px; }
+        @media screen and (max-width: 767px) {
+          .container section article .swipe-tip {
+            bottom: 83px; } }
+      .container section article .carousel {
+        position: fixed;
+        text-align: center;
+        left: 0;
+        bottom: 60px;
+        width: 100%;
+        height: 45px;
+        background-color: #fff;
+        border-top: 2px solid #ccdcfc; }
+        @media screen and (max-width: 767px) {
+          .container section article .carousel {
+            bottom: 46px;
+            height: 36px; } }
+        .container section article .carousel ul {
+          padding: 0;
+          margin: 0; }
+        .container section article .carousel li {
+          list-style: none;
+          display: inline;
+          font-size: 40px; }
+          .container section article .carousel li a {
+            text-decoration: none; }
+    .container section .slide-button {
+      width: 40px;
+      height: 66px;
+      position: fixed;
+      top: 43%; }
+      @media screen and (max-width: 767px) {
+        .container section .slide-button {
+          width: 28px;
+          padding: 0; } }
+    .container section .slides-prev {
+      left: 0; }
+    .container section .slides-next {
+      position: fixed;
+      right: 0; }
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  /* added line */ }
+
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 52px;
+  align-self: flex-start; }
+  header .navigation {
+    padding: 16px; }
+    header .navigation ul {
+      display: flex;
+      margin: 0;
+      padding: 0; }
+      header .navigation ul li {
+        flex: 1;
+        list-style: none;
+        padding: 0; }
+        header .navigation ul li .icon {
+          width: 32px;
+          height: 32px;
+          background: #ccc;
+          display: inline-block;
+          font-size: 11px;
+          line-height: 32px;
+          text-align: center; }
+        header .navigation ul li.left {
+          justify-content: flex-start;
+          text-align: left; }
+        header .navigation ul li.right {
+          justify-content: flex-end;
+          text-align: end; }
+
+footer {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #ecf2fc; }
+  @media screen and (max-width: 767px) {
+    footer {
+      height: 46px; } }
+  footer nav {
+    margin: 0;
+    padding: 8px;
+    text-align: center; }
+    @media screen and (max-width: 767px) {
+      footer nav {
+        padding: 4px; } }
+    footer nav ul {
+      margin: 0;
+      padding: 0; }
+      footer nav ul li {
+        border: 1px solid #ccdcfc;
+        border-radius: 4px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        height: 44px;
+        width: 56px;
+        line-height: 44px; }
+        @media screen and (max-width: 767px) {
+          footer nav ul li {
+            width: 54px;
+            height: 36px;
+            line-height: 36px; } }
+        @media screen and (max-width: 767px) {
+          footer nav ul li.hide {
+            display: none; } }
+        footer nav ul li a {
+          padding: 4px 16px; }
+
+/*# sourceMappingURL=berlitz.css.map */
