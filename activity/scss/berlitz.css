@@ -117,26 +117,29 @@ body {
         bottom: 60px;
         width: 100%;
         height: 45px;
+        line-height: 45px;
         background-color: #fff;
         border-top: 2px solid #ccdcfc; }
         @media screen and (max-width: 767px) {
           .container section article .carousel {
             bottom: 46px;
-            height: 36px; } }
+            height: 36px;
+            line-height: 36px; } }
         .container section article .carousel ul {
           padding: 0;
           margin: 0; }
         .container section article .carousel li {
           list-style: none;
-          display: inline;
-          font-size: 40px; }
+          display: inline-block;
+          margin: 0 16px; }
           .container section article .carousel li a {
             text-decoration: none; }
     .container section .slide-button {
       width: 40px;
       height: 66px;
       position: fixed;
-      top: 43%; }
+      top: 43%;
+      background: #fff; }
       @media screen and (max-width: 767px) {
         .container section .slide-button {
           width: 28px;
@@ -218,16 +221,21 @@ footer {
         display: inline-block;
         height: 44px;
         width: 56px;
-        line-height: 44px; }
+        line-height: 44px;
+        vertical-align: top; }
+        footer nav ul li.prev-page svg, footer nav ul li.next-page svg {
+          padding: 10px 0 10px 0; }
         @media screen and (max-width: 767px) {
           footer nav ul li {
             width: 54px;
             height: 36px;
-            line-height: 36px; } }
+            line-height: 36px; }
+            footer nav ul li.prev-page, footer nav ul li.next-page {
+              width: 32px;
+              height: 36px;
+              line-height: 36px; } }
         @media screen and (max-width: 767px) {
           footer nav ul li.hide {
             display: none; } }
-        footer nav ul li a {
-          padding: 4px 16px; }
 
 /*# sourceMappingURL=berlitz.css.map */
