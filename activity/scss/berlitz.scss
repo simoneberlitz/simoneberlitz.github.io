@@ -94,6 +94,39 @@ body {
       align-self:center;
       margin:16px 0 0 0;
       padding:0;
+       
+        
+        #success {
+            position: fixed;
+            bottom: 150px;
+            left: 50%;
+            margin-left: -70px;
+            z-index: 10;
+            width: 139px;
+            height: 103px;
+            background-color: #fff;
+            border-radius: 8px;
+            display: none;
+            text-align: center;
+            
+            @media screen and (max-width: 767px) {
+                bottom: 130px;
+            }
+            
+            .tick {
+                position: relative;
+                margin: 0 auto;
+                width: 56px;
+                height: 56px;
+                line-height: 56px;
+                background-color: #3ddc97;
+                border-radius: 30px;
+                margin-bottom: 8px;
+                margin-top: 10px;
+            }
+        }
+        
+        
       
       @media screen and (max-width: 767px)        {
         margin: 16px 0 60px 0;
