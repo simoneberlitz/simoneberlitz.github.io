@@ -33,6 +33,10 @@ body {
       color: $blue-100;
       margin: 0 0 16px 0;
       padding: 0;
+      
+        @media screen and (max-width: 767px) {
+            font-size: 18px;  
+        }
       }
 
   h2 {
@@ -41,6 +45,10 @@ body {
       color: $charcoal;
       margin: 0 0 12px 0;
       padding: 0;
+      
+      @media screen and (max-width: 767px) {
+            font-size: 17px;  
+        }
 
     &.focus {
       font-size: 21px;
