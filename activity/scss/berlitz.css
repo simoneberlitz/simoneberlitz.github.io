@@ -43,6 +43,9 @@ body {
       border-radius: 30px;
       box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
       background-color: #fbd0ac; }
+      @media screen and (max-width: 767px) {
+        .container h2.focus {
+          font-size: 18px; } }
   .container section {
     text-align: center;
     align-self: center;
